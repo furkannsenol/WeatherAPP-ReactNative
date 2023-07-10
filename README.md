@@ -1,3 +1,4 @@
 # WeatherAPP-ReactNative
  Architectural, TypeScript, Redux,  Data from an API
-![image](https://github.com/furkannsenol/WeatherAPP-ReactNative/assets/36533867/1b014ff4-73a7-427a-931a-25420a55ab6f)
+![image](https://github.com/furkannsenol/WeatherAPP-ReactNative/assets/36533867/5aa94c25-37db-4ed4-b97a-399a0490903b)
+
