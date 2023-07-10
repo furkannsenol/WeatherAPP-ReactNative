@@ -1,16 +1,19 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native'
 
-function App(): JSX.Element {
+import React, { useEffect } from 'react';
+import Router from './src/navigation/mainRouter';
+import { Provider } from 'react-redux';
+import { store } from './src/redux/store/configureStore';
+import SystemNavigationBar from 'react-native-system-navigation-bar';
+import { getUserLocation } from './src/service/locationService';
+//import { getUserLocation } from './src/service/locationService';
+function App() {
+  SystemNavigationBar.navigationHide();
+  
   return (
-    <View>
-      <Text>Deneme</Text>
-    </View>
+    <Provider store={store}>
+      <Router />
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-
-});
 
 export default App;
